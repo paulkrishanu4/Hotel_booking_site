@@ -1,0 +1,17 @@
+.property{
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+.property::-webkit-scrollbar-thumb{
+  background:rgb(66, 66, 129);
+}
+.parent{
+  margin-top:100px;
+}
+.property img{
+  height:300px;
+  width:300px;
+  padding:30px;
+  border-radius: 40px;
+}

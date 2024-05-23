@@ -1,0 +1,39 @@
+.book{
+  display:flex;
+  flex-direction: row;
+  gap:100px;
+  padding: 10px;
+  margin:20px;
+  max-width: 100%;
+}
+
+.filter{
+  min-width:20%;
+}
+.filter ul li{
+  list-style: none;
+}
+.filter ul{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+
+@media(max-width:1000px){
+  .book{
+    display:flex;
+    flex-direction: column;
+    gap:100px;
+    padding: 10px;
+    margin:20px;
+    max-width: 100%;
+  }
+  .filter ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+  }
+
+}
