@@ -210,15 +210,6 @@ export const Booking = () => {
         <option value="Chennai">Chennai</option>
         <option value="Pune">Pune</option>
         </select>
-        <h4>Stars:</h4>
-        <ul>
-           <li><input type="checkbox" value="5 stars" 
-          onChange={()=>{setStar5(!star5)}}/><label>5 star</label></li>
-          <li><input type="checkbox" value="5 stars" 
-          onChange={()=>{setStar4(!star4)}}/><label>4 star</label></li>
-          <li><input type="checkbox" value="5 stars" 
-          onChange={()=>{setStar3(!star3)}}/><label>3 star</label></li>
-        </ul>
         <h4>Property Type:</h4>
         <ul>
            <li><input type="checkbox" value="hotels" onChange={()=>{setHotel(!hotel)}}></input>  <label>Hotels</label></li>
@@ -238,6 +229,15 @@ export const Booking = () => {
            <li> <input type="checkbox" value="balcony" onChange={()=>{setBalcony(!balcony)}} ></input>  <label for="vehicle1">Balcony</label></li>
            <li> <input type="checkbox" value="Pets" onChange={()=>{setPet(!pet)}}></input>  <label >Pets allowed</label></li>
            <li> <input type="checkbox" value="parking" onChange={()=>{setParking(!parking)}}></input>  <label>Parking</label></li>
+        </ul>
+        <h4>Stars:</h4>
+        <ul>
+           <li><input type="checkbox" value="5 stars" 
+          onChange={()=>{setStar5(!star5)}}/><label>5 star</label></li>
+          <li><input type="checkbox" value="5 stars" 
+          onChange={()=>{setStar4(!star4)}}/><label>4 star</label></li>
+          <li><input type="checkbox" value="5 stars" 
+          onChange={()=>{setStar3(!star3)}}/><label>3 star</label></li>
         </ul>
 
       </div>
